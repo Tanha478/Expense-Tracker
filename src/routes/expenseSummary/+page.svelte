@@ -41,7 +41,7 @@
     {/each}
 </div>
 {:else}
-  <p>No expenses recorded yet.</p>
+  <p class="text-center text-[#4b6b42]">No expenses recorded yet.</p>
 {/if}
 
 <style>

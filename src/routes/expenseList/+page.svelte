@@ -35,7 +35,7 @@
     </div>
     {/each}
 {:else}
-<p>No expenses added yet.</p>
+<p class="text-center text-[#4b6b42]">No expenses added yet.</p>
 {/if}
 </div>
 
