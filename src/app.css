@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+* {
+    font-family: poppins, sans-serif;
+}
+.fa-solid{
+        font-size: 40px;
+        color:#3c5535
+    }
