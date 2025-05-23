@@ -98,7 +98,8 @@
   {#each Object.entries(weeklyTotals) as [week, total]}
   <div class="bg-slate-100 h-[150px] w-[280px] border-4 border-[#dbe7d2] border-solid rounded-lg shadow-lg p-4 m-2 text-center space-y-1.5 hover:bg-[#bfe0a5]">
     <h1 class="font-poppins text-mc text-[#3c5535]">Weekly Expenses</h1>
-    <h1 class="text-[#3c5535]"><strong>{week}</strong>:</h1>
+    <h1 class="text-[#3c5535]"><strong>{week}  to  {new Date(new Date(week).setDate(new Date(week).getDate() + 6)).toISOString().split('T')[0]}
+</strong></h1>
      <h1 class="text-[#3c5535]"> ₹{total}</h1>
   </div>
   {/each}
