@@ -41,7 +41,7 @@
 
 <style>
      .stylistText {
-        font-family: 'Dancing Script', cursive;
+        font-family: monospace;
     }
     .buttoonn:hover {
         background-color: aliceblue;
